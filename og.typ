@@ -52,9 +52,9 @@
     datetime(year:2021, month:1, day:1),
     datetime(year:2023, month:6, day:30)
   )[
-    - Designed and maintained multi-threaded WebSocket server in Java capable of handling concurrent speech recognition requests, built over C++ with real-time GStreamer audio engine and memory-intensive model harness written with Kaldi and OpenFst libraries. Handles 10-20x the traffic as the previous generation server. 
-    - Developed and interacted with auxiliary microservices, including a low-overhead HTTP-to-WebSocket router, database connectivity abstractions via HTTP, and a specialized audio proxy service that routed mobile microphone input streams to isolated desktop client sessions.
-    - Debugged complex thread contention, memory leaks, and performance bottlenecks across Java and native boundaries using valgrind, gdb, and JProfiler. Worked with DevOps to ensure smooth server deployments, maximize uptime, and optimize load balancing.
+    - Designed and maintained multi-threaded WebSocket server in Java capable of handling many concurrent speech recognition requests, built over C++ with real-time GStreamer audio engine and memory-intensive model harness written with Kaldi and OpenFst libraries.
+    - Developed and interacted with auxiliary microservices, including a low-overhead HTTP-to-WebSocket router, interactions between the speech server and administrative / database server over HTTP, an audio proxy microservice that routed mobile microphone input streams to isolated desktop client sessions via the core WebSocket server.
+    - Debugged complex thread contention, memory leaks, and performance bottlenecks across Java and native boundaries using valgrind, gdb, and JProfiler. Worked with DevOps to ensure smooth server deployments, maximize uptime, and optimize load balancing .
   ]
   #work-heading(
     "Software Engineer - Systems and Automation",
