@@ -40,7 +40,7 @@
     datetime(year:2023, month:7, day:1),
     datetime(year:2025, month:12, day:1)
   )[
-    - Developed a Python package, backed on C++ extensions using pybind11, for language and acoustic modeling and text processing, offering an intuitive interface for nVoq's data scientists and linguists, and to refactor legacy model build system.
+    - Developed a Python package, backed on C++ extensions using pybind11, for language and acoustic modeling and text processing, offering an intuitive interface for nVoq's data scientists and linguists, and to refactor legacy model build system. Build time reduced by ~80%.
     - Architected the migration of legacy, persistent, on-prem build systems to ephemeral, containerized infrastructure in AWS using Docker, GitLab CI/CD, and Jenkins, optimizing build reliability and decreasing end-to-end model compilation times.
     - Served as the primary maintainer of the core text processing system, managing complex domain-specific grammars compiled to finite-state machines a la OpenFst for low-latency text normalization and inverse normalization. Built lexer and syntax highlighting VS Code extension for the grammar DSL, and enhanced its compiler to improve code organization and developer productivity.
     - Trained team members on our modeling systems and worked with product owners to plan and prioritize the team's tasks. Wrote extensive documentation of speech and modeling systems to facilitate developer productivity and future onboarding.
