@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐷 Derek Smith | Systems Programmer</title>
+    <style>
+        :root {
+            --bg: #fafafa;
+            --text: #1a1a1a;
+            --link: #7862f8;
+            --code-bg: #eaeaea;
+            --max-width: 650px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --text: #e0e0e0;
+                --link: #7862f8;
+                --code-bg: #252525;
+            }
+        }
+        body {
+            /* font-family: "New Computer Modern", "Times New Roman", Times, Baskerville, Georgia, serif; */
+            /* font-family: ui-monospace, SFMono-Regular, "SF Pro Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: var(--max-width);
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        header { margin-bottom: 40px; }
+        h1 { margin-bottom: 5px; font-size: 1.8rem; }
+        h2 { font-size: 1.2rem; margin-top: 30px; border-bottom: 1px solid var(--code-bg); padding-bottom: 5px; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        code { font-family: ui-monospace, SFMono-Regular, SF Pro Mono, Menlo, Monaco, Consolas, monospace; background: var(--code-bg); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+        .links { margin-top: 10px; font-family: monospace; }
+        .links a { margin-right: 15px; }
+        .project-meta { font-size: 0.9em; color: gray; display: block; margin-top: -4px; margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Derek Smith</h1>
+        <p>Systems Software Engineer</p>
+        <div class="links">
+            <a href="mailto:derek@oink.dog">Email</a>
+            <a href="https://github.com/hayduker" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/derekcs" target="_blank">LinkedIn</a>
+            <a href="resume.pdf" download>Resume</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+            I am a systems software engineer with a decade of professional experience building the underlying engines, runtimes, and developer tooling that power complex data processing systems. My engineering philosophy centers on determinism, memory safety, performance optimization, and pursuing programming as a craft centered in modularity and simplicity.
+            </p>
+            <p>
+            Most notably, I spent 9 years at nVoq designing and optimizing high-performance backend infrastructure. My work focused on bridging high-level interfaces with close-to-metal processing, including a Python package built on C++ extensions to coordinate speech recognition model development and build automation, a multi-threaded, low-latency Java/C++ WebSocket server handling real-time audio pipelines, and improvements to a compiler for a domain-specific language representing text-processing grammars as finite-state machines.
+            </p>
+            <p>
+            Following a successful tenure there, I am taking a planned personal and technical sabbatical in 2026. Alongside completing 450 miles of wilderness thru-hiking on the Arizona Trail, I've dedicated much of this time deep-diving into modern systems programming in Rust, culminating in open-source contributions to peer-to-peer networking projects and building an ahead-of-time Python-to-WebAssembly compiler.
+            </p>
+            <p>
+            While I am open to a variety of industries, I am ideally looking to bring my background in resource-efficient systems to teams building compilers or language tooling, web3 infrastructure, or local-first data systems—environments where low-overhead execution, predictability, and memory safety are valued as primary features.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Active Projects</h2>
+            <ul>
+                <li>
+                    <strong>whipsnake</strong> 
+                    <span class="project-meta">Rust • Python • WebAssembly</span>
+                    An ahead-of-time compiler targeting sandboxed WebAssembly bytecode for a strict subset of Python syntax. Implemented a custom deterministic lexical analyzer, recursive-descent parser, and abstract syntax tree generation pipeline.
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Core Expertise</h2>
+            <ul>
+                <li><strong>Languages:</strong> C++, Python, Rust, Java, Bash, HTML/CSS/JavaScript</li>
+                <li><strong>Runtimes & Systems:</strong> Multi-threading &amp; Concurrency, WebAssembly (Wasm), Foreign Function Interfaces (FFI/JNI), Audio Processing Pipelines</li>
+                <li><strong>Tooling &amp; Infrastructure:</strong> Compiler frontends, Docker, GitLab CI/CD, Linux Systems Architecture, Nix</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>

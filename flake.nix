@@ -15,14 +15,8 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.typst
-            # Optional: Add typst-lsp or typst-fmt if you want editor tooling
-            # pkgs.typst-lsp
-            # pkgs.typst-fmt
+            pkgs.python3
           ];
-
-          shellHook = ''
-            echo "⚡ Typst environment loaded. Run 'typst watch resume.typ' to live-compile."
-          '';
         };
       });
 }
