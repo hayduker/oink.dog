@@ -42,7 +42,7 @@
     - Developed a Python package with C++ extensions (via pybind11) for speech modeling, reducing model compilation times by 80% and simplifying data science workflows.
     - Migrated on-prem build systems to containerized AWS infrastructure using Docker, GitLab CI/CD, and Jenkins, improving build reliability by 4x.
     - Maintained complex Thrax grammars compiled to OpenFst finite-state machines for text processing. Built a custom syntax highlighting VS Code extension for the grammar DSL and improved its compiler.
-    - Led a team of four, aligned technical tasks with product owners, and authored comprehensive system documentation to accelerate future developer onboarding.
+    - Led a team of four, aligned technical tasks with product owners, and authored comprehensive system documentation and multimedia tutorials to accelerate future developer onboarding.
   ]
   #work-heading(
     "Senior Software Engineer - High-Performance Servers",
