@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>🐷 Derek Smith | Personal Projects</title>
+</head>
+<body>
+
+    <header>
+        <nav class="breadcrumb">
+            <a href="../">Derek Smith</a> / <span>Personal Projects</span>
+        </nav>
+        <p class="subtitle">Open-source contributions, compiler design, and music technology</p>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Personal Projects</h2>
+            <ul>
+                <li>
+                    <strong>Open source contributions</strong> (current)
+                    <span class="project-meta">Rust • Python • CRDTs • distributed systems </span>
+                    A deep-dive into modern systems programming in Rust, with an emphasis on projects related to p2p networks, DHTs, local-first data storage, and cryptographic primitives. I'm currently learning about CRDTs and have made a few contributions to <a href="https://github.com/holochain/holochain/pulls?q=author%3A%40hayduker">Holochain</a>, <a href="https://github.com/pulls/authored?q=is%3Apr+author%3A%40hayduker+archived%3Afalse+sort%3Aupdated-desc+%28repo%3Aautomerge%2Fautomerge+OR+repo%3Aautomerge%2Fautomerge.github.io%29">Automerge</a>, and <a href="https://github.com/n0-computer/iroh.computer/pulls?q=author%3A%40hayduker">Iroh</a>.
+                </li>
+                <li>
+                    <strong><a href="https://github.com/hayduker/whipsnake"><i>whipsnake</i></a></strong> (current)
+                    <span class="project-meta">Rust • Python • WebAssembly</span>
+                    An ahead-of-time compiler targeting WebAssembly for a strict subset of Python syntax. I implemented a hand-written lexical analyzer, recursive-descent parser, abstract syntax tree generator, and evaluator to begin with. The interpreter supports literals, operators, control flow, loops, and functions. I'm actively researching WebAssembly for code generation and potentially a basic Wasm runtime as well. Inspired by Robert Nystrom's <i>Crafting Interpreters</i>.
+                </li>
+                <li>
+                    <strong><a href="https://github.com/hayduker/keith-shareit"><i>keith-shareit</i></a></strong> (2026)
+                    <span class="project-meta">Rust • Iroh • Ratatui</span>
+                    A peer-to-peer media transfer library written using a collection of Iroh's tools. Supports mDNS for automatic discovery of devices on the same LAN, or Iroh's ticketing system for connection across broader networks. Built on a filesystem store to minimize RAM consumption during transit.
+                </li>
+                <li>
+                    <strong>Open source contributions</strong> (2025)
+                    <span class="project-meta">Mojo • Python</span>
+                    I made a few <a href="https://github.com/modular/modular/pulls?q=author%3A%40hayduker+">contributions</a> to the standard library and documentation for the Mojo programming language, as well as some early architectural <a href="https://github.com/charlesneimog/anytype-client/pulls?q=author%3A%40hayduker">changes</a> to the Python API client for the Anytype local-first personal knowledge management system.
+                </li>
+                <li>
+                    <strong><a href="https://github.com/hayduker/monkey">Monkey compiler</a></strong> (2024)
+                    <span class="project-meta">Python • Monkey</span>
+                    Two implementations of the Monkey programming language from Thorston Ball's books: a tree-walking interpreter, and a bytecode compiler and accompanying stack-based virtual machine to run it. This was my first compiler project as I was deep-diving into Python at nVoq, so I wrote it in that rather something more, uh, suitable.
+                </li>
+                <li>
+                    <strong><a href="https://github.com/hayduker/moreno"><i>Moreno</i> music map</a></strong> (2020)
+                    <span class="project-meta">JavaScript • Spotify API</span>
+                    A client-side data visualization app built on the D3.js framework and the Spotify API. It allows user to discover new music based on their existing favorites by displaying a force-directed graph built from artist interconnections. Previews of artists' music can be played in the browser by clicking on the nodes.
+                </li>
+            </ul>
+        </section>
+</body>
+</html>

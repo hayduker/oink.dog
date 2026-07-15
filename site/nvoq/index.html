@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>🐷 Derek Smith | Systems Programmer</title>
+</head>
+<body>
+
+    <header>
+        <nav class="breadcrumb">
+            <a href="../">Derek Smith</a> / <span>nVoq Experience</span>
+        </nav>
+        <p class="subtitle">9.5 years of optimizing high-performance speech engines & developer tooling</p>
+    </header>
+
+    <main>
+        <section id="nvoq">
+            <h2>nVoq Experience</h2>
+            <ul>
+                <li>
+                    <strong>Senior Software Engineer & Technical Lead - Developer Tooling</strong> (2023-2025)
+                    <span class="project-meta">Python • C++ • OpenFst • Thrax • Kaldi • AWS • Docker • Jenkins</span>
+                    <p>
+                    I developed a Python package, backed on C++ extensions using pybind11, for language and acoustic modeling and text processing. The package exposed an intuitive interface to the low-level, high-concurrency code used to compile text corpora, pronunciation lexicons, and regex-like text processing grammars into finite-state transducer models. The package also improved the workflow for building acoustic models with Kaldi's neural network libraries. These tools enabled nVoq's data scientists and lingusitics to more efficiently make improvements to our speech recognition models without low-level C++ and Bash expertise required on their part.
+                    </p>
+                    <p>
+                    In conjunction with this work, I architected the migration of on-prem model build systems to containerized infrastructure in AWS using Docker, GitLab CI/CD, and Jenkins. These updates moved the builds off persistent servers running Bash code that was notoriously difficult to modify and improve and on to the Python package mentioned previously. This migration improved build reliability by ~4x and decreased model compilation times by ~80%.
+                    </p>
+                    <p>
+                    During this period, I also served as the primary maintainer of the core text processing utilities mentioned above, managing complex domain-specific Thrax grammars (similar to regex) compiled to finite-state machines via OpenFst. These grammars were used for low-latency text normalization (for preparing large text corpora for n-gram modeling) and inverse normalization (for real-time formatting of the speech recognizer's output in production). I built a lexer and syntax highlighting VS Code extension for the grammar DSL, and enhanced its compiler's import system to allow for better organization and DRY in the grammar files.
+                    </p>
+                    <p>
+                    At the start of this period, I also trained four team members on our modeling systems, and throughout the period I worked with our product owners to plan and prioritize the team's tasks. I had become nVoq's effective SME on hybrid speech recognition systems by this point, and wrote extensive documentation of our modeling systems to facilitate developer productivity and future onboarding.
+                    </p>
+                </li>
+                <li>
+                    <strong>Senior Software Engineer - High-Performance Servers</strong> (2021-2023)
+                    <span class="project-meta">C++ • Java • JNI • GStreamer • Kaldi</span>
+                    <p>
+                    A couple other engineers and I designed, built, and maintained a multi-threaded WebSocket server written in Java. The server was built over a C++ core using the JNI, exposing a real-time GStreamer audio engine and memory-intensive acoustic and language model harness written with the Kaldi and OpenFst libraries. This server handled ~20x the number of requests for the same memory usage as the previous generation.
+                    </p>
+                    <p>
+                    After the initial buildout was fininshed, I debugged complex thread contention, memory leaks, and performance bottlenecks across on both sides of the Java-native boundary using valgrind, gdb, and JProfiler. I also worked with DevOps to ensure smooth server deployments, maximize uptime, and optimize load balancing.
+                    </p>
+                    <p>
+                    This server was just the primary in a handful of other services the team developed at this time. We also built a low-overhead HTTP-to-WebSocket router, formalized the dictation server's HTTP interactions with the database and administrative service, and created a specialized audio proxy service that routed mobile microphone input streams to the dictation server while routing the resulting text to the user's PC, allowing for more flexible usage of the speech recognition process on their part.
+                    </p>
+                </li>
+                <li>
+                    <strong>Software Engineer - Systems and Automation</strong> (2018-2020)
+                    <span class="project-meta">C++ • Java • Python • Bash • Kaldi • OpenFst • Chef • Jenkins</span>
+                    <p>
+                    For my first full-time role at nVoq, Iuilt and deployed Jenkins projects for automating acoustic and language model builds and accuracy tests. I then used these automated builds to improve recognition accuracy by experimenting with various neural network architectures exposed by the Kaldi toolkit. I also experimented with a variety of new datasets for improving accuracy of accented speakers and users in noisy environments. I was able to reduce errors in these circumstances by ~40%.
+                    </p>
+                    <p>
+                    During this time, I also developed NLP prototypes with Kaldi and Python's NLTK for corpus cleanup, text normalization, and parts-of-speech rescoring to improve recognition accuracy further. I also helped maintain the legacy speech recognition server, applying bug fixes and occasional new features, and managing deployments with Chef.
+                    </p>
+                </li>
+                <li>
+                    <strong>Contractor - Machine Learning & Computer Vision</strong> (2016-2017)
+                    <span class="project-meta">C++ • OpenCV • Lua • Torch</span>
+                    <p>
+                    In my first role at nVoq, I implemented a neural network to classify spectrograms of human speech into sequences of phonemes, then augmented this baseline architecture as a ladder autoencoder to allow for semi-supervised training. The model architecture followed one described in a recent research paper at the time. I also compared various loss functions to maximize accuracy of trained model. The project was used as my Master's project requirement as well.
+                    </p>
+                    <p>
+                    Prior to this, I prototyped desktop automation program using OpenCV to recognize text, textboxes, radio buttons, and other standard desktop application components.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>

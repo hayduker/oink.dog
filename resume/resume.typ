@@ -87,13 +87,6 @@
     - Designing a custom ahead-of-time compiler in Rust targeting sandboxed WebAssembly bytecode for a strict subset of Python syntax.
     - Implemented a deterministic lexical analyzer, recursive-descent parser, and abstract syntax tree generation pipeline to evaluate language mechanics.
   ]
-  #project-heading(
-    "Moreno Music Map",
-    // "HTML/CSS, D3.js, Spotify API",
-    // "github.com/hayduker/moreno.git"
-  )[
-    - Client-side data visualization app built on the D3.js framework and the Spotify API. Allows user to discover new music based on their existing favorites by displaying a force-directed graph built from artist interconnections.
-  ]
 ]
 
 #custom-title("Education")[
