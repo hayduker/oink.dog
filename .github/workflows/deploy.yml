@@ -29,11 +29,8 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
 
-      - name: Create Resume Directory
-        run: mkdir -p site/resume
-
       - name: Compile Resume
-        run: typst compile resume.typ site/resume/resume.pdf
+        run: typst compile resume/resume.typ site/resume.pdf
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
