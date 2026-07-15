@@ -30,7 +30,7 @@ jobs:
         uses: typst-community/setup-typst@v3
 
       - name: Compile Resume
-        run: typst compile resume/resume.typ site/resume.pdf
+        run: typst compile resume/resume.typ site/derek-smith-resume.pdf
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
