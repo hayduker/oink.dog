@@ -96,7 +96,7 @@
 
 #let generic_1x2(r1c1, r1c2) = {
   grid(
-    columns: (1fr, 1fr),
+    columns: (3fr, 1fr),
     align(left)[#r1c1],
     align(right)[#r1c2]
   )
@@ -173,7 +173,7 @@
   assert(type(end-date) == datetime or type(end-date) == str)
 
   generic_2x2(
-    (1fr, 1fr),
+    (3fr, 1fr),
     [*#title*], [*#period_worked(start-date, end-date)*], 
     [#company], emph(location)
   )
