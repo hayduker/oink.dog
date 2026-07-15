@@ -29,13 +29,16 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
 
+      - name: Create Resume Directory
+        run: mkdir -p site/resume
+
       - name: Compile Resume
-        run: typst compile resume.typ resume.pdf
+        run: typst compile resume.typ site/resume/resume.pdf
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: 'site'
 
       - name: Deploy to GitHub Pages
         id: deployment
