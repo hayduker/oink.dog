@@ -2,7 +2,7 @@
 
 #let name = "Derek Smith"
 #let phone = "281-881-0316"
-#let email = "derek@oink.dog"
+#let email = "hiring@oink.dog"
 #let github = "hayduker"
 #let linkedin = "derekcs"
 #let personal-site = "oink.dog"
