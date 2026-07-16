@@ -29,8 +29,8 @@
     datetime(year:2026, month:1, day:1),
     "Present"
   )[
-    - Undertaking a planned technical and personal sabbatical focused on modern systems programming in Rust, decentralized networks, and compiler design.
-    - Contributed documentation, unit tests, and code fixes to open source local-first and P2P projects including Holochain, Automerge, and Iroh.
+    - Taking a planned technical and personal sabbatical focused on modern systems programming in Rust, decentralized networks, and compiler design.
+    - Contributed documentation, unit tests, and code fixes to open-source local-first and P2P projects including Holochain, Automerge, and Iroh.
   ]
   #work-heading(
     "Senior Software Engineer & Technical Lead - Developer Tooling",
@@ -41,8 +41,8 @@
   )[
     - Developed a Python package with C++ extensions (via pybind11) for speech modeling, reducing model compilation times by 80% and simplifying data science workflows.
     - Migrated on-prem build systems to containerized AWS infrastructure using Docker, GitLab CI/CD, and Jenkins, improving build reliability by 4x.
-    - Maintained complex Thrax grammars compiled to OpenFst finite-state machines for text processing. Built a custom syntax highlighting VS Code extension for the grammar DSL and improved its compiler.
-    - Led a team of four, aligned technical tasks with product owners, and authored comprehensive system documentation and multimedia tutorials to accelerate future developer onboarding.
+    - Maintained complex Thrax grammars compiled to OpenFst finite-state machines for text processing. Built a VS Code syntax highlighting extension for the grammar DSL and improved its compiler.
+    - Provided technical leadership for a team of five, aligned technical tasks with product owners, and authored comprehensive system documentation and multimedia tutorials to accelerate future developer onboarding.
   ]
   #work-heading(
     "Senior Software Engineer - High-Performance Servers",
@@ -51,7 +51,7 @@
     datetime(year:2021, month:1, day:1),
     datetime(year:2023, month:6, day:30)
   )[
-    - Co-designed a multi-threaded Java/C++ WebSocket server (via JNI) leveraging Kaldi, OpenFst, and GStreamer, increasing concurrent request capacity by 20x.
+    - Co-designed a multi-threaded Java/C++ WebSocket server (via JNI) built on Kaldi, OpenFst, and GStreamer, increasing concurrent request capacity by 20x.
     - Debugged thread contention, memory leaks, and segmentation faults using Valgrind, GDB, and JProfiler.
     - Developed auxiliary microservices, including a low-overhead HTTP-to-WebSocket router and an audio proxy routing service for mobile-to-desktop dictation.
   ]
@@ -103,7 +103,7 @@
 
 #custom-title("Skills")[
   #skills()[
-    - *Languages:* C++, Python, Rust, Bash, Java, HTML/CSS/JavaScript
+    - *Languages:* C++, Python, Rust, Bash, Java, HTML/CSS, vanilla JS
     - *Systems & Runtimes:* Multi-threading, async, real-time audio, finite-state machines, FFI, compilers, Wasm
     - *Infrastructure:* Git, GitHub, GitLab CI/CD, make, Docker, Jenkins, CMake, AWS (EC2, S3, IAM), Linux, Nix
   ]
