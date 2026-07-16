@@ -105,6 +105,6 @@
   #skills()[
     - *Languages:* C++, Python, Rust, Bash, Java, HTML/CSS/JavaScript
     - *Systems & Runtimes:* Multi-threading, async, real-time audio, finite-state machines, FFI, compilers, Wasm
-    - *Infrastructure:* Git, GitHub/GitLab CI, Docker, Jenkins, AWS (EC2, S3, IAM), Linux, Nix
+    - *Infrastructure:* Git, GitHub, GitLab CI/CD, make, Docker, Jenkins, CMake, AWS (EC2, S3, IAM), Linux, Nix
   ]
 ]
