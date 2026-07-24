@@ -30,6 +30,11 @@
                     I implemented a hand-written lexical analyzer, recursive-descent parser, AST generator, and tree-walking evaluator for a strict subset of Python. The interpreter currently supports literals, operators, control flow, loops, and functions. I'm exploring WebAssembly as both a compilation target and a stack-based virtual machine to move beyond the performance limits of tree-walking interpretation. Inspired by Robert Nystrom's <i>Crafting Interpreters</i>.
                 </li>
                 <li>
+                    <strong>Rigor Botis</strong> (current)
+                    <span class="project-meta">Python • Whisper • Coqui TTS • Qwen • Mistral • Silero VAD</span>
+                    A collaboration with a friend to modernize an animatronic Halloween decoration with a fully local speech pipeline. Audio is gated with Silero VAD, transcribed with Whisper, processed by a locally hosted LLM, and synthesized with Coqui TTS using a voice model trained on the original animatronic's recordings. The project is currently focused on reducing conversational latency by restructuring the pipeline into asynchronous services connected by message queues, while exploring prompt engineering, speaker identification, and splitting workloads between an embedded Orange Pi and a home server.
+                </li>
+                <li>
                     <strong><a href="https://github.com/hayduker/keith-shareit"><i>keith-shareit</i></a></strong> (2026)
                     <span class="project-meta">Rust • Iroh • Ratatui</span>
                     A peer-to-peer media transfer library written using the Iroh network stack. Supports mDNS for automatic discovery of devices on the same LAN, or Iroh's ticketing system for connection across broader networks. Built on a filesystem store to minimize RAM consumption during transit. Uses Tokio for asynchronous communication between the TUI and backend components.
