@@ -33,25 +33,25 @@
     - Contributed documentation, unit tests, and code fixes to open-source local-first and P2P projects including Holochain, Automerge, and Iroh.
   ]
   #work-heading(
-    "Senior Software Engineer & Technical Lead - Developer Tooling",
+    "Sr. Software Engineer & Technical Lead - Speech Model Tooling",
     "nVoq Inc.",
     "Boulder, CO",
     datetime(year:2023, month:7, day:1),
     datetime(year:2025, month:12, day:1)
   )[
-    - Developed a Python package with C++ extensions (via pybind11) for speech modeling, reducing model compilation times by 80% and simplifying data science workflows.
+    - Developed a Python package with C++ extensions via pybind11 for speech modeling, reducing model compilation times by 80% and simplifying data science workflows.
     - Migrated on-prem build systems to containerized AWS infrastructure using Docker, GitLab CI/CD, and Jenkins, improving build reliability by 4x.
     - Maintained complex Thrax grammars compiled to OpenFst finite-state machines for text processing. Built a VS Code syntax highlighting extension for the grammar DSL and improved its compiler.
     - Provided technical leadership for a team of five, aligned technical tasks with product owners, and authored comprehensive system documentation and multimedia tutorials to accelerate future developer onboarding.
   ]
   #work-heading(
-    "Senior Software Engineer - High-Performance Servers",
+    "Senior Software Engineer - High-Performance Speech Servers",
     "nVoq Inc.",
     "Boulder, CO",
     datetime(year:2021, month:1, day:1),
     datetime(year:2023, month:6, day:30)
   )[
-    - Co-designed a multi-threaded Java/C++ WebSocket server (via JNI) built on Kaldi, OpenFst, and GStreamer, increasing concurrent request capacity by 20x.
+    - Co-designed a multi-threaded Java/C++ WebSocket speech recognition server via JNI built on Kaldi, OpenFst, and GStreamer, increasing concurrent request capacity by 20x.
     - Debugged thread contention, memory leaks, and segmentation faults using Valgrind, GDB, and JProfiler.
     - Developed auxiliary microservices, including a low-overhead HTTP-to-WebSocket router and an audio proxy routing service for mobile-to-desktop dictation.
   ]
@@ -62,7 +62,7 @@
     datetime(year:2018, month:1, day:1),
     datetime(year:2020, month:12, day:1)
   )[
-    - Automated speech model builds and accuracy testing using Jenkins; reduced speech recognition error rates by 40% by training on new datasets and neural network architectures.
+    - Automated speech model builds and accuracy testing using Jenkins; reduced speech recognition error rates by 40% by training on new datasets and TDNN-LSTM neural network architectures.
     - Developed NLP prototypes in Python for corpus cleanup, text normalization, and parts-of-speech rescoring.
     - Maintained legacy C++ dictation server, applying patches and managing deployments using Chef.
   ]
@@ -73,7 +73,7 @@
     datetime(year:2016, month:9, day:1),
     datetime(year:2017, month:12, day:1)
   )[
-    - Implemented a speech spectrogram phoneme classifier in Torch/Lua, adapting it as a semi-supervised ladder autoencoder for my Master's project.
+    - Implemented a neural network classifying speech phonemes from STFT-based spectrograms and MFCCs in Torch/Lua, adapting it as a semi-supervised ladder autoencoder for my Master's project.
     - Prototyped a computer vision desktop automation tool utilizing OpenCV to recognize UI elements.
   ]
 ]
@@ -82,7 +82,7 @@
   #project-heading(
     "whipsnake",
   )[
-    - Developing an ahead-of-time compiler in Rust targeting WebAssembly for a subset of Python; completed hand-written lexical analyzer, recursive-descent parser, and AST evaluator.
+    - Developing an interpreter and bytecode compiler in Rust targeting WebAssembly for a subset of Python; completed hand-written lexical analyzer, recursive-descent parser, and AST evaluator.
   ]
 ]
 
