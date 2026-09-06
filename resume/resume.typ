@@ -33,47 +33,47 @@
     - Contributed documentation, unit tests, and code fixes to open-source local-first and P2P projects including Holochain, Automerge, and Iroh.
   ]
   #work-heading(
-    "Sr. Software Engineer & Technical Lead - Speech Model Tooling",
+    "Sr. Software Engineer & Technical Lead — Speech Model Tooling",
     "nVoq Inc.",
     "Boulder, CO",
     datetime(year:2023, month:7, day:1),
     datetime(year:2025, month:12, day:1)
   )[
-    - Developed a Python package with C++ extensions via pybind11 for speech modeling, reducing model compilation times by 80% and simplifying data science workflows.
+    - Developed a Python package with C++ extensions using pybind11 for ASR modeling, reducing model compilation times by 80% and simplifying data science workflows.
     - Migrated on-prem build systems to containerized AWS infrastructure using Docker, GitLab CI/CD, and Jenkins, improving build reliability by 4x.
-    - Maintained complex Thrax grammars compiled to OpenFst finite-state machines for text processing. Built a VS Code syntax highlighting extension for the grammar DSL and improved its compiler.
+    - Maintained complex Thrax grammars compiled into OpenFst finite-state machines for text processing. Built a VS Code syntax highlighting extension for the grammar DSL and improved its compiler.
     - Provided technical leadership for a team of five, aligned technical tasks with product owners, and authored comprehensive system documentation and multimedia tutorials to accelerate future developer onboarding.
   ]
   #work-heading(
-    "Senior Software Engineer - High-Performance Speech Servers",
+    "Sr. Software Engineer — High-Performance Speech & Audio Servers",
     "nVoq Inc.",
     "Boulder, CO",
     datetime(year:2021, month:1, day:1),
     datetime(year:2023, month:6, day:30)
   )[
-    - Co-designed a multi-threaded Java/C++ WebSocket speech recognition server via JNI built on Kaldi, OpenFst, and GStreamer, increasing concurrent request capacity by 20x.
+    - Co-designed a multithreaded Java/C++ WebSocket server for real-time speech recognition built on Kaldi, OpenFst, and GStreamer, increasing concurrent request capacity by 20x.
     - Debugged thread contention, memory leaks, and segmentation faults using Valgrind, GDB, and JProfiler.
-    - Developed auxiliary microservices, including a low-overhead HTTP-to-WebSocket router and an audio proxy routing service for mobile-to-desktop dictation.
+    - Developed a low-overhead HTTP-to-WebSocket router, an audio proxy routing service for mobile-to-desktop dictation, and implemented support for additional codecs like OGG Vorbis and WebM/Opus.
   ]
   #work-heading(
-    "Software Engineer - Systems and Automation",
+    "Software Engineer — Speech Systems and Automation",
     "nVoq Inc.",
     "Boulder, CO",
     datetime(year:2018, month:1, day:1),
     datetime(year:2020, month:12, day:1)
   )[
-    - Automated speech model builds and accuracy testing using Jenkins; reduced speech recognition error rates by 40% by training on new datasets and TDNN-LSTM neural network architectures.
+    - Automated GPU-based acoustic model builds and accuracy testing using Jenkins; reduced speech recognition error rates by 40% by training on new datasets and TDNN-LSTM neural network architectures.
     - Developed NLP prototypes in Python for corpus cleanup, text normalization, and parts-of-speech rescoring.
     - Maintained legacy C++ dictation server, applying patches and managing deployments using Chef.
   ]
   #work-heading(
-    "Contractor - Machine Learning",
+    "Machine Learning Research Engineer",
     "nVoq Inc. + Colorado School of Mines",
     "Boulder, CO",
     datetime(year:2016, month:9, day:1),
     datetime(year:2017, month:12, day:1)
   )[
-    - Implemented a neural network classifying speech phonemes from STFT-based spectrograms and MFCCs in Torch/Lua, adapting it as a semi-supervised ladder autoencoder for my Master's project.
+    - Implemented a CNN in Torch/Lua for speech phoneme classification using STFT-based spectrograms and MFCCs. Extended the model into a ladder autoencoder for semi-supervised learning and evaluated multiple loss functions to improve classification accuracy.
     - Prototyped a computer vision desktop automation tool utilizing OpenCV to recognize UI elements.
   ]
 ]
@@ -103,8 +103,8 @@
 
 #custom-title("Skills")[
   #skills()[
-    - *Languages:* C++, Python, Rust, Bash, Java, HTML/CSS, vanilla JS
-    - *Systems & Runtimes:* Multi-threading, async, real-time audio, finite-state machines, FFI, compilers, Wasm
+    - *Languages:* C++, Python, Rust, Bash, Java, HTML/CSS, vanilla JS, Lua/Torch
+    - *Systems & Runtimes:* Multi-threading, real-time audio, FSTs, FFI, compilers, STFT, MFCC, machine learning
     - *Infrastructure:* Git, GitHub, GitLab CI/CD, make, Docker, Jenkins, CMake, AWS (EC2, S3, IAM), Linux, Nix
   ]
 ]
